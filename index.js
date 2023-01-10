@@ -27,10 +27,11 @@ else
 
 /*
 const int = 10
-if (int != 5)
+if (int !== 5)
 { 
-    console.log ("not equal")
+    console.log ("not equal");
 }
+else conslole.log ("equal")
 
 */
 
@@ -38,13 +39,23 @@ if (int != 5)
   Write a piece of code to check: if  given an integer is  divisible  by  5 then display "divisible by 5" (search for modulo operator)
 */
 
-/* WRITE YOUR ANSWER HERE */
+/*
+const int = 10;
+if (int % 5 === 0)
+{
+    console.log ("divisible by 5");
+}
+else console.log ("not divisible by 5");
+*/
 
 /* EXERCISE 3
  Write a piece of code for checking if, given two integers, the value of one of them is 8 or if their addition or subtraction is equal to 8.
 */
 
-/* WRITE YOUR ANSWER HERE */
+/* 
+
+
+*/
 
 /* EXERCISE 4
  You are working on an e-commerce website. In the variable totalShoppingCart you are storing the total amount spent by the current user.
