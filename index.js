@@ -2,13 +2,37 @@
  Write a piece of code to find the largest of  given two integers
 */
 
-/* WRITE YOUR ANSWER HERE */
+/*
+const int_1 = 10
+const int_2 = 20
+
+if(int_1 > int_2)
+{
+    console.log (int_1);
+}
+else if (int_1 < int_2)
+{
+    console.log (int_2);
+}
+else 
+    console.log ("Intergers are equil");
+
+*/
+
+
 
 /* EXERCISE 2
   Write a piece of code to check: if  given an integer is NOT equal to 5 then display " not equal"
 */
 
-/* WRITE YOUR ANSWER HERE */
+/*
+const int = 10
+if (int != 5)
+{ 
+    console.log ("not equal")
+}
+
+*/
 
 /* EXERCISE 2
   Write a piece of code to check: if  given an integer is  divisible  by  5 then display "divisible by 5" (search for modulo operator)
