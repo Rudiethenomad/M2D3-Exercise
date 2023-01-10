@@ -52,10 +52,24 @@ else console.log ("not divisible by 5");
  Write a piece of code for checking if, given two integers, the value of one of them is 8 or if their addition or subtraction is equal to 8.
 */
 
-/* 
+/*
+let n = 3;
+let m = 11;
 
-
+if (n === 8 || m === 8) {
+    console.log ("one is equal to 8");
+} else if (n + m === 8)
+{
+    console.log ("addition is equal to 8");
+} else if (n - m === 8 || m - n === 8)
+{
+    console.log ("the subtraction is equal to 8");
+}
+else console.log ("none equal 8");
 */
+
+
+
 
 /* EXERCISE 4
  You are working on an e-commerce website. In the variable totalShoppingCart you are storing the total amount spent by the current user.
@@ -63,7 +77,15 @@ else console.log ("not divisible by 5");
  Write an algorithm that calculates the total cost to charge the user with.
 */
 
-/* WRITE YOUR ANSWER HERE */
+/*
+let totalShoppingCart = 100;
+if (totalShoppingCart > 50)
+{ console.log (totalShoppingCart)}
+else{ console.log (totalShoppingCart + 10)};
+
+*/
+
+
 
 /* EXERCISE 5
 You are working on an e-commerce website. Today is Black Friday and everything has a 20% discount at the end of the purchase.
