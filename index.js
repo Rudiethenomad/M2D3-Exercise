@@ -275,13 +275,45 @@ for (let i = 0; i < 11; i++)
  Write a JavaScript for loop that will iterate from 0 to 15. For each iteration, it will check if the current number is odd or even, and display a message to the screen
 */
 
-/* WRITE YOUR ANSWER HERE */
+/*
+for (let n = 0; n <= 15; n++)
+{
+if (n % 2 === 0)
+{
+    console.log (n, "Even");
+
+}
+else console.log (n, "Odd");
+}
+
+*/
+
 
 /* EXERCISE 16
   Write a JavaScript program which iterates the integers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz
  */
 
-/* WRITE YOUR ANSWER HERE */
+/*
+for (let n = 1; n <= 100; n++)
+{
+    if (n % 3 === 0 && n % 5 ===0)
+    {
+        console.log ("FizzBuzz");
+    }
+    else if (n % 3 === 0)
+    {
+    console.log ("Fizz");
+    }
+    else if (n % 5 === 0)
+    {
+        console.log ("Buzz");
+    }
+    else console.log (n);
+}
+
+*/
+
+
 
 /* EXERCISE 17
   Write a piece of code to check the day of the week .  Usie  SWITCH - CASE  and given "day" variable with range from 1 to 7. 
@@ -289,4 +321,34 @@ for (let i = 0; i < 11; i++)
 
   */
 
-/* WRITE YOUR ANSWER HERE */
+/*
+//let day =5;
+let day = 1;
+switch (day)
+{
+    case 1:
+        day = console.log ("Lunedi");
+        break;
+    case 2:
+        day = console.log ("Martedi");
+        break;
+    case 3:
+        day = console.log ("Mercoledi");
+        break;
+    case 4:
+        day = console.log ("Giovedi");
+        break;
+    case 5:
+        day = console.log ("Venerdi");
+        break;
+    case 6:
+        day = console.log ("Sabato");
+        break;
+    case 7:
+        day = console.log ("Domenica");
+        break;
+
+}
+
+*/
+
