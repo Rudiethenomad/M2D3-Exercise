@@ -108,7 +108,10 @@ Create three variables and assign a numerical value to each one of them.
 */
 
 // Come back to number 6 it is a bit complex
-/*let egg1 = 12;
+
+
+
+let egg1 = 12;
 let egg2 = 24;
 let egg3 = 36;
 
@@ -118,7 +121,8 @@ if (egg1 > egg2 && egg1 > egg3)
     else{ console.log (egg1 + "," + egg3 + "," + egg2);}
 }
 
-*/
+
+
 
 
 
@@ -235,7 +239,7 @@ Display the numbers 0 through 5 (inclusive) in acesnding order using a while loo
 /*
 let myArray =[]
 let n = 0;
-while (n < 6)
+while (n <= 5)
 {
     myArray.push (n);
     n++
