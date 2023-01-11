@@ -107,8 +107,8 @@ Create three variables and assign a numerical value to each one of them.
  Display the result in the console.
 */
 
-
-let egg1 = 12;
+// Come back to number 6 it is a bit complex
+/*let egg1 = 12;
 let egg2 = 24;
 let egg3 = 36;
 
@@ -118,21 +118,42 @@ if (egg1 > egg2 && egg1 > egg3)
     else{ console.log (egg1 + "," + egg3 + "," + egg2);}
 }
 
-
+*/
 
 
 
 /* EXERCISE 7
 Write a piece of code for checking if a given value is a integer or not. (search for 'typeof')
 */
+/*
+const egg = "fried";
+//const egg = 10;
 
-/* WRITE YOUR ANSWER HERE */
+if(typeof egg === "number")
+{
+    console.log ("Interger");
+}
+else
+{
+    console.log("Not an Interger");
+}
+*/
 
 /* EXERCISE 8
  Write a piece of code for checking if a given number is even or odd. (search for modulo operator)
 */
+/*
+//const egg = 11;
+const egg = 6;
+if (egg % 2 === 0)
+{
+    console.log ("even");
+}
+else {
+    console.log ("odd");
+}
+/* 
 
-/* WRITE YOUR ANSWER HERE */
 
 /* EXERCISE 9
 Change the order of logic in the code so that it will return the correct statements in all cases.
@@ -145,8 +166,24 @@ if (val < 10) {
     console.log("Greater than or equal to 10");
   }
 */
-
-/* WRITE YOUR ANSWER HERE */
+/*
+let val = 7
+//let val = 2
+//let val = 12
+if (val < 5) 
+  {
+    console.log("Less than 5");
+  } 
+  else if (val < 10) 
+  {
+    console.log("less than 10");
+  } 
+  else 
+  {
+    console.log("greater than or equal to 10");
+  } 
+  */
+ 
 
 /*
 EXERCISE 10
