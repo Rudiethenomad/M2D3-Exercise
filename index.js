@@ -195,32 +195,81 @@ num < 20 - display Large
 num >= 20 - display Huge
 */
 
-/* WRITE YOUR ANSWER HERE */
+/*
+//let num = 36;
+//let num = 1;
+let num = 19;
+if (num < 5) 
+{ 
+    console.log  ("display Tiny");
+}
+else if (num < 10)
+ { 
+    console.log ("display Small");
+ }
+else if (num < 15) 
+{ console.log ("display Medium");
+}
+else if (num < 20)
+{ console.log ("display Large");
+}
+else if(num >= 20)
+{ console.log ("display Huge");
+}
+*/
 
 /*  EXERCISE 11
 Use a ternary operator to assign to a variable called gender the string values "male" or "female".
  The choice should be made based on the value of another variable called isMale.
 */
 
-/* WRITE YOUR ANSWER HERE */
+/*
+//let isMale = true;
+let isMale = false;
+console.log (isMale ? "male" : "female");
+*/
 
 /* EXERCISE 12
 Display the numbers 0 through 5 (inclusive) in acesnding order using a while loop.
 */
-
-/* WRITE YOUR ANSWER HERE */
+/*
+let myArray =[]
+let n = 0;
+while (n < 6)
+{
+    myArray.push (n);
+    n++
+}
+console.log (myArray)
+*/
 
 /* EXERCISE 13
 Display the numbers 0 through 10 (inclusive) in acesnding order using a for loop.
 */
 
-/* WRITE YOUR ANSWER HERE */
+/*
+for (let i = 0; i < 11; i++) {
+    console.log(i);
+  }
+
+*/
+
 
 /* EXERCISE 14
 Display the numbers 0 through 10 (inclusive) in acesnding order  but skip displaying 3 and 8.
 */
 
-/* WRITE YOUR ANSWER HERE */
+/*
+for (let i = 0; i < 11; i++) 
+{
+    if(i !==3 && i !==5)
+    {
+    console.log(i);
+    }
+}
+
+*/
+
 
 /* EXERCISE 15
  Write a JavaScript for loop that will iterate from 0 to 15. For each iteration, it will check if the current number is odd or even, and display a message to the screen
