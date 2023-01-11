@@ -92,7 +92,14 @@ You are working on an e-commerce website. Today is Black Friday and everything h
  Modify the previous answer inserting this information and, applying the same rules for the shipping cost, calculate the totalCost.
 */
 
-/* WRITE YOUR ANSWER HERE */
+/*
+let totalShoppingCart = 100;
+if (totalShoppingCart > 50)
+{ console.log (totalShoppingCart * .80)}
+else{ console.log (totalShoppingCart * .8 + 10)};
+*/
+
+
 
 /* EXERCISE 6
 Create three variables and assign a numerical value to each one of them. 
@@ -100,7 +107,20 @@ Create three variables and assign a numerical value to each one of them.
  Display the result in the console.
 */
 
-/* WRITE YOUR ANSWER HERE */
+
+let egg1 = 12;
+let egg2 = 24;
+let egg3 = 36;
+
+if (egg1 > egg2 && egg1 > egg3)
+{ if (egg2 > egg3) {
+    console.log(egg1 + "," + egg2 + "," + egg3);}
+    else{ console.log (egg1 + "," + egg3 + "," + egg2);}
+}
+
+
+
+
 
 /* EXERCISE 7
 Write a piece of code for checking if a given value is a integer or not. (search for 'typeof')
